@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,60 +9,82 @@
     <title>Agencia Fake</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+
 </head>
+
 <body>
-        <nav class="navbar">
-            <div class="logo">
-                <h1>agencia fake</h1>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>agencia fake</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviço</a>
+            <a href="#">Link</a>
+            <a id="botao" href="#">Fale Conosco</a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="headline">
+            <h2>voce achou a melhor</h2>
+            <h2 id="titulo">agencia digital</h2>
+            <div id="root">
+
             </div>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Serviço</a>
-                <a href="#">Link</a>
-                <a id="botao" href="#">Fale Conosco</a>
+            <a href="#" class="contact-btn">contrate agora</a>
+        </div>
+        <div class="img-headline">
+            <img src="imagem/pexels-pixabay-4158.jpg" alt="">
+        </div>
+    </header>
+
+    <section>
+        <h2>o que podemos fazer pelo seu negocio?</h2>
+        <div class="servicos">
+            <div class="card">
+                <img src="imagem/coding.png" alt="">
+                <h3>desenvolvimento de sites</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, exercitationem maxime nisi,
+                    aspernatur, vero labore cumque accusamus ipsum fugit cum nobis. Adipisci, voluptates et illum
+                    pariatur ipsa cumque nulla!</p>
             </div>
-        </nav>
-        <header class="header">
-            <div class="headline">
-                <h2>voce achou a melhor</h2>
-                <h2 id="titulo">agencia digital</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga earum fugiat, omnis ipsam minima in alias dignissimos dolorum illo totam id ab possimus eligendi eaque incidunt, doloribus quae consectetur autem?</p>
-                <a href="#" class="contact-btn">contrate agora</a>
+            <div class="card">
+                <img src="imagem/smartphone.png" alt="">
+                <h3>desenvolvimento de Apps</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, exercitationem maxime nisi,
+                    aspernatur, vero labore cumque accusamus ipsum fugit cum nobis. Adipisci, voluptates et illum
+                    pariatur ipsa cumque nulla!</p>
             </div>
-            <div class="img-headline">
-                <img src="imagem/pexels-pixabay-4158.jpg" alt="">
+            <div class="card">
+                <img src="imagem/digital-marketing.png" alt="">
+                <h3>
+                    <Main>Marketing Digital</Main>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, exercitationem maxime nisi,
+                    aspernatur, vero labore cumque accusamus ipsum fugit cum nobis. Adipisci, voluptates et illum
+                    pariatur ipsa cumque nulla!</p>
             </div>
-        </header>
-        <section>
-            <h2>o que podemos fazer pelo seu negocio?</h2>
-            <div class="servicos">
-                <div class="card">
-                    <img src="imagem/coding.png" alt="">
-                    <h3>desenvolvimento de sites</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, exercitationem maxime nisi, aspernatur, vero labore cumque accusamus ipsum fugit cum nobis. Adipisci, voluptates et illum pariatur ipsa cumque nulla!</p>
-                </div>
-                <div class="card">
-                    <img src="imagem/smartphone.png" alt="">
-                    <h3>desenvolvimento de Apps</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, exercitationem maxime nisi, aspernatur, vero labore cumque accusamus ipsum fugit cum nobis. Adipisci, voluptates et illum pariatur ipsa cumque nulla!</p>
-                </div>
-                <div class="card">
-                    <img src="imagem/digital-marketing.png" alt="">
-                    <h3><Main>Marketing Digital</Main></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, exercitationem maxime nisi, aspernatur, vero labore cumque accusamus ipsum fugit cum nobis. Adipisci, voluptates et illum pariatur ipsa cumque nulla!</p>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="logo-rodape">
-                <h1 class="agencia">Agencia Fake</h1>
-                <p>um site feito com html e css puro</p>
-            </div>
-            <b>
-                © todos os direitos reservados
-            </b>
-        </footer>
-        <a href="#"><img class="whats" src="imagem/logo-whatsapp-sem-fundo.webp" alt=""></a>
+        </div>
+    </section>
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="agencia">Agencia Fake</h1>
+            <p>um site feito com html e css puro</p>
+        </div>
+        <b>
+            © todos os direitos reservados
+        </b>
+    </footer>
+    <a href="#"><img class="whats" src="imagem/logo-whatsapp-sem-fundo.webp" alt=""></a>
+
+
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="src/js/script.js"></script>
 </body>
+
 </html>

@@ -89,8 +89,10 @@ body{
 }
 
 .headline p{
-    color: #434040;
+    color: #921d1d;
     text-align: left;
+    font-size: 1.2em;
+    margin: 1em 0;
 }
 
 .contact-btn{
@@ -144,12 +146,13 @@ section h2{
 }
 
 .servicos{
-    display: inline-block;
+    display: flex;
     margin-top: 5%;
 }
 
 .card{
-    display: inline-block;
+    display: grid;
+    place-items: center;
     width: 30%;
     padding: 20px;
     margin: 1%;
@@ -158,6 +161,12 @@ section h2{
     cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
+
+.card img{
+    height: 10em;
+    width: 15em;
+}
+
 
 .card:hover{
     transition: all 0.6s ease-in-out;
