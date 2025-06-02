@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="um site exemplo do modulo">
+    <meta name="keywords" content="agencia digital, css, html">
+    <title>Agencia Fake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+
+    <script src="src/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>agencia fake</h1>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="#">Sobre</a>
+            <a href="serviço.html">Serviço</a>
+            <a href="#">Link</a>
+            <a id="botao" href="#">Fale Conosco</a>
+        </div>
+    </nav>
+    <main class="main3">
+        <div class="container3">
+            <h2>Nossos Serviços Digitais para Impulsionar Seu Negócio</h2>
+            <div id="card"></div>
+
+
+            <button type="button" class="btn btn-warning" onclick="cadastrarServico()">Cadastrar</button>
+
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal" tabindex="-1" id="modalCad">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">nome</label>
+                            <input type="text" class="form-control" id="nome">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="senha" class="form-label">senha</label>
+                            <input type="senha" class="form-control" id="senha">
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

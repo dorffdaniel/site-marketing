@@ -28,6 +28,24 @@ body{
     margin-left: 10%;
 }
 
+
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.container3 p{
+    font-size: 1.2em;
+    color: #7a0cad;
+}
+
+
+
+
 .menu{
     flex: 70%;
     text-align: right;
