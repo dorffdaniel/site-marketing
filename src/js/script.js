@@ -41,7 +41,7 @@ function cadastrarServico(){
 
    serviços.push( new Servico(nome, email, senha))
    
-   alerta("cadastrado com sucesso", "Cadastrado", "success");
+   alerta("cadastrado com sucesso", "Cadastrado Serviço", "success");
 
 }
 
